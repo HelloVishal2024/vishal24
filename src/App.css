@@ -1,0 +1,153 @@
+.App {
+    text-align: center;
+}
+
+.css-1eed5fa-MuiInputBase-root-MuiInput-root::before {
+    border-bottom: 2px solid #fff !important;
+}
+
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+    color: #fff !important;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 100% !important;
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+    color: #fff !important;
+}
+
+.cardAdd {
+    box-shadow: inset 0 0 0.5px 1px hsla(0, 0%,
+    100%, 0.075),
+        /* shadow ring 👇 */ 0 0 0 1px hsla(0, 0%, 0%, 0.05),
+        /* multiple soft shadows 👇 */ 0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
+    0 0.9px 1.5px hsla(0, 0%, 0%, 0.045),
+    0 3.5px 6px hsla(0, 0%, 0%, 0.09);
+}
+
+html {
+    background-color: #000 !important;
+   color: #fff !important;
+}
+
+.contentdiv{
+    text-align: center;
+    margin-top: 42%;
+}
+
+.gridHeader{
+    position: fixed;
+    bottom: 100px;
+    /* width: 100%; */
+    margin-top: auto;
+}
+
+.descLine1{
+    margin: 0 0 6px 0;
+    font-size: 1.5rem;
+}
+
+.progress-container {
+    margin-top: 3px;
+    width: 100%;
+    text-align: center;
+}
+
+.marqueeTag p{
+    margin-right: 40px;
+}
+.marqueeTag{
+    background-color: rgba(24, 20, 20, 0.50);
+}
+
+.progress-bar {
+    width: 15%;
+    height: 5px; /* Adjust height as needed */
+    background-color: #fff;
+}
+.progress-bar::-webkit-progress-bar {
+    background-color: white; /* Change the background color of the progress bar for WebKit browsers */
+}
+.progress-bar::-webkit-progress-value {
+    background-color: grey; /* Change the progress color */
+}
+
+.progress-value {
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+}
+
+
+.descLine2{
+    font-size: 16px;
+    margin: 0 0 1px 0;
+}
+
+.descLine3{
+    font-size: 13px;
+    margin: 0;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+.active{
+    border: 1px solid #1976d2 !important;
+    z-index: 999 !important;
+    transform: scale(1.2) !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@media (min-width: 600px) {
+  .displayContentMob {
+    display: none !important;
+  }
+
+  .displayContentScreen {
+    display: block !important;
+  }
+}
+
+@media (max-width: 600px) {
+    .displayContentMob {
+        display: block !important;
+    }
+
+    .displayContentScreen {
+        display: none !important;
+    }
+}

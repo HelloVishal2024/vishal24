@@ -1,0 +1,12 @@
+.timeStringcss{
+    font-size: 2rem;
+    margin: 0;
+}
+.dateStringcss{
+    font-size: 13px;
+    margin: 0 0 3px 0;
+}
+.degStringcss{
+    font-size: 13px;
+    margin: 3px;
+}
